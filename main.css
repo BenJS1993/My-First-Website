@@ -1,0 +1,34 @@
+body{
+    background-color: crimson;
+}
+
+h2 {
+    color: darkblue;
+    margin: auto;
+}
+
+.headings {
+    color: darkblue;
+}
+
+.column1 {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.column2 {
+    float: right;
+    width: 50%;
+}
+
+#title {
+    color: black;
+    text-align: center;
+}
+

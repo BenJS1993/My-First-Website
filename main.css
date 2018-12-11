@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
 body{
     background-color: crimson;
 }
@@ -14,6 +18,8 @@ h2 {
 .column1 {
     float: left;
     width: 50%;
+    font-family: 'Pacifico', cursive;
+    font-size: 15px;
 }
 
 .row:after {
@@ -25,10 +31,33 @@ h2 {
 .column2 {
     float: right;
     width: 50%;
+    font-family: 'VT323', monospace;
+    font-size: 20px;
 }
 
 #title {
     color: black;
     text-align: center;
+    font-family: 'Bungee Inline', cursive;
 }
 
+ul {
+    list-style-type:none
+}
+
+.box {
+    border: 1px solid yellow;
+    margin: 0px 0px 0px 0px;
+}
+
+@media (min-width: 376px){
+    .box {
+        border: 3px solid black;
+        margin: 0px;
+    }
+
+    #title {
+        color: yellow;
+        margin: 0px;
+    }
+}
